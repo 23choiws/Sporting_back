@@ -7,7 +7,6 @@ from app.database import user_collection
 router = APIRouter()
 
 
-
 amount = 10000
 user = user_collection.find_one({"user_id": "cstrnull00"})    
 
